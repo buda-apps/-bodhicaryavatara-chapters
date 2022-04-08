@@ -117,10 +117,10 @@
     <feature name="backgrounds-resize" value="true"/>
     <feature name="backgrounds-resize-width" value="1080"/>
     <feature name="scripture-refs-display" value="popup"/>
-    <feature name="show-chapter-number-on-app-bar" value="true"/>
-    <feature name="show-chapter-selector" value="true"/>
-    <feature name="show-chapter-selector-after-book" value="true"/>
-    <feature name="show-verse-selector" value="true"/>
+    <feature name="show-chapter-number-on-app-bar" value="false"/>
+    <feature name="show-chapter-selector" value="false"/>
+    <feature name="show-chapter-selector-after-book" value="false"/>
+    <feature name="show-verse-selector" value="false"/>
     <feature name="display-images-in-bible-text" value="normal"/>
     <feature name="display-videos-in-bible-text" value="normal"/>
     <feature name="hide-empty-verses" value="true"/>
@@ -197,7 +197,7 @@
     </font>
   </fonts>
 
-  <color-scheme name="Dark Red"/>
+  <color-scheme name="Royal Blue"/>
 
   <color-themes>
     <color-theme name="Normal" enabled="true" default="true"/>
@@ -213,6 +213,7 @@
 
   <traits>
     <trait name="has-verse-numbers" value="true"/>
+    <trait name="has-multiple-books" value="true"/>
   </traits>
 
   <markers>
@@ -222,8 +223,8 @@
   </colors>
 
   <books id="C01">
-    <book-collection-name>Separate-Chapter</book-collection-name>
-    <book-collection-abbrev>Separate-Chapter</book-collection-abbrev>
+    <book-collection-name>སྤྱོད་འཇུག་རྩ་འགྲེལ་ཤན་སྦྱར།</book-collection-name>
+    <book-collection-abbrev>སྤྱོད་འཇུག་རྩ་འགྲེལ་ཤན་སྦྱར།</book-collection-abbrev>
     <book-collection-description></book-collection-description>
 
     <features type="bc">
@@ -267,10 +268,118 @@
     </writing-system>
 
     <book id="B001">
-      <name>སྤྱོད་འཇུག་རྩ་བ།</name>
-      <abbrev>སྤྱོད་འཇུག་རྩ་བ།</abbrev>
-      <filename>སྤྱོད་འཇུག་རྩ་བ།.txt</filename>
-      <source>D:\Scripture App Builder\Chojuk-chatsang\Chojuk-chapters\སྤྱོད་འཇུག་རྩ་བ།.txt</source>
+      <name>ལེའུ་དང་བོ།</name>
+      <abbrev>ལེའུ་དང་བོ།</abbrev>
+      <filename>སྤྱོད་འཇུག་རྩ་བ།-chapter-01.txt</filename>
+      <source>D:\Scripture App Builder\Chojuk-chatsang\Chojuk-chapters\Root-Verse\སྤྱོད་འཇུག་རྩ་བ།-chapter-01.txt</source>
+
+      <features type="book">
+        <feature name="show-chapter-numbers" value="inherit"/>
+        <feature name="lock-orientation" value="none"/>
+      </features>
+    </book>
+
+    <book id="B002">
+      <name>ལེའུ་གཉིས་པ།</name>
+      <abbrev>ལེའུ་གཉིས་པ།</abbrev>
+      <filename>སྤྱོད་འཇུག་རྩ་བ།-chapter-02.txt</filename>
+      <source>D:\Scripture App Builder\Chojuk-chatsang\Chojuk-chapters\Root-Verse\སྤྱོད་འཇུག་རྩ་བ།-chapter-02.txt</source>
+
+      <features type="book">
+        <feature name="show-chapter-numbers" value="inherit"/>
+        <feature name="lock-orientation" value="none"/>
+      </features>
+    </book>
+
+    <book id="B003">
+      <name>ལེའུ་གསུམ་པ།</name>
+      <abbrev>ལེའུ་གསུམ་པ།</abbrev>
+      <filename>སྤྱོད་འཇུག་རྩ་བ།-chapter-03.txt</filename>
+      <source>D:\Scripture App Builder\Chojuk-chatsang\Chojuk-chapters\Root-Verse\སྤྱོད་འཇུག་རྩ་བ།-chapter-03.txt</source>
+
+      <features type="book">
+        <feature name="show-chapter-numbers" value="inherit"/>
+        <feature name="lock-orientation" value="none"/>
+      </features>
+    </book>
+
+    <book id="B004">
+      <name>ལེའུ་བཞི་བ།</name>
+      <abbrev>ལེའུ་བཞི་བ།</abbrev>
+      <filename>སྤྱོད་འཇུག་རྩ་བ།-chapter-04.txt</filename>
+      <source>D:\Scripture App Builder\Chojuk-chatsang\Chojuk-chapters\Root-Verse\སྤྱོད་འཇུག་རྩ་བ།-chapter-04.txt</source>
+
+      <features type="book">
+        <feature name="show-chapter-numbers" value="inherit"/>
+        <feature name="lock-orientation" value="none"/>
+      </features>
+    </book>
+
+    <book id="B005">
+      <name>ལེའུ་ལྔ་བ།</name>
+      <abbrev>ལེའུ་ལྔ་བ།</abbrev>
+      <filename>སྤྱོད་འཇུག་རྩ་བ།-chapter-05.txt</filename>
+      <source>D:\Scripture App Builder\Chojuk-chatsang\Chojuk-chapters\Root-Verse\སྤྱོད་འཇུག་རྩ་བ།-chapter-05.txt</source>
+
+      <features type="book">
+        <feature name="show-chapter-numbers" value="inherit"/>
+        <feature name="lock-orientation" value="none"/>
+      </features>
+    </book>
+
+    <book id="B006">
+      <name>ལེའུ་དྲུག་པ།</name>
+      <abbrev>ལེའུ་དྲུག་པ།</abbrev>
+      <filename>སྤྱོད་འཇུག་རྩ་བ།-chapter-06.txt</filename>
+      <source>D:\Scripture App Builder\Chojuk-chatsang\Chojuk-chapters\Root-Verse\སྤྱོད་འཇུག་རྩ་བ།-chapter-06.txt</source>
+
+      <features type="book">
+        <feature name="show-chapter-numbers" value="inherit"/>
+        <feature name="lock-orientation" value="none"/>
+      </features>
+    </book>
+
+    <book id="B007">
+      <name>ལེའུ་བདུན་པ།</name>
+      <abbrev>ལེའུ་བདུན་པ།</abbrev>
+      <filename>སྤྱོད་འཇུག་རྩ་བ།-chapter-07.txt</filename>
+      <source>D:\Scripture App Builder\Chojuk-chatsang\Chojuk-chapters\Root-Verse\སྤྱོད་འཇུག་རྩ་བ།-chapter-07.txt</source>
+
+      <features type="book">
+        <feature name="show-chapter-numbers" value="inherit"/>
+        <feature name="lock-orientation" value="none"/>
+      </features>
+    </book>
+
+    <book id="B008">
+      <name>ལེའུ་བརྒྱད་པ།</name>
+      <abbrev>ལེའུ་བརྒྱད་པ།</abbrev>
+      <filename>སྤྱོད་འཇུག་རྩ་བ།-chapter-08.txt</filename>
+      <source>D:\Scripture App Builder\Chojuk-chatsang\Chojuk-chapters\Root-Verse\སྤྱོད་འཇུག་རྩ་བ།-chapter-08.txt</source>
+
+      <features type="book">
+        <feature name="show-chapter-numbers" value="inherit"/>
+        <feature name="lock-orientation" value="none"/>
+      </features>
+    </book>
+
+    <book id="B009">
+      <name>ལེའུ་དགུ་བ།</name>
+      <abbrev>ལེའུ་དགུ་བ།</abbrev>
+      <filename>སྤྱོད་འཇུག་རྩ་བ།-chapter-09.txt</filename>
+      <source>D:\Scripture App Builder\Chojuk-chatsang\Chojuk-chapters\Root-Verse\སྤྱོད་འཇུག་རྩ་བ།-chapter-09.txt</source>
+
+      <features type="book">
+        <feature name="show-chapter-numbers" value="inherit"/>
+        <feature name="lock-orientation" value="none"/>
+      </features>
+    </book>
+
+    <book id="B010">
+      <name>ལེའུ་བཅུ་བ།</name>
+      <abbrev>ལེའུ་བཅུ་བ།</abbrev>
+      <filename>སྤྱོད་འཇུག་རྩ་བ།-chapter-10.txt</filename>
+      <source>D:\Scripture App Builder\Chojuk-chatsang\Chojuk-chapters\Root-Verse\སྤྱོད་འཇུག་རྩ་བ།-chapter-10.txt</source>
 
       <features type="book">
         <feature name="show-chapter-numbers" value="inherit"/>
